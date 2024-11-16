@@ -4,4 +4,4 @@ print("Python Programming")
 print("PYTHON 4 EVERYONE")
 print("Python is easy to learn")
 print("Python is easy to learn")
-
+print(1+1)
