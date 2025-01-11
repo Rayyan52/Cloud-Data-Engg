@@ -17,3 +17,4 @@ row = [
 with open(r'D:\Saylani\Cloud-Data-Engg\Filehandling\file 1.csv', 'w') as file:  # 'w' mode is write mode
     writer_content = csv.writer(file)
     writer_content.writerows(row)
+
