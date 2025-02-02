@@ -70,7 +70,7 @@ soup = BeautifulSoup(requesting.text, 'html.parser')
 
 # this will find the fitst image on the page
 # image = soup.find('img')
-image_url = soup.find('img', class_='lazy')
+image_url = soup.find('img', class_='lazy') # OR image_url = soup.find('img.lazy') 
 # it gives us the url of the image on the first link 
 # print(image_url)
 # print(image_url.get('src'))

@@ -27,7 +27,7 @@ all_jobs_title = soup.find_all(class_='title is-5')
 
 
 
-container = soup.find(id='ResultsContainer')
+container = soup.find(id='ResultsContainer') # OR write +>  #ResultsContainer
 # gives the list of all the divs with the class name 'column is-half'
 job_divs = container.find_all(class_='column is-half')
 
